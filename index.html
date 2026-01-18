@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In-N-Out Burger Nutrition Facts</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #c00 0%, #900 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .contact {
+            background-color: #f8f8f8;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        .contact a {
+            color: #c00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .nutrition-info {
+            padding: 30px;
+        }
+        .nutrition-category {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #c00;
+            border-bottom: 2px solid #c00;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px dashed #ddd;
+        }
+        .item-name {
+            font-weight: 600;
+            color: #222;
+        }
+        .item-details {
+            text-align: right;
+        }
+        .calories {
+            font-weight: bold;
+            color: #c00;
+        }
+        .serving {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 3px;
+        }
+        .allergens {
+            background-color: #fff8f8;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+            border-left: 4px solid #c00;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+        .disclaimer {
+            font-size: 0.85rem;
+            color: #888;
+            margin-top: 25px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+        .anchor-link {
+            display: inline-block;
+            background-color: #c00;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 15px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .anchor-link:hover {
+            background-color: #900;
+            text-decoration: none;
+        }
+        @media (max-width: 600px) {
+            .container {
+                border-radius: 0;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .nutrition-info {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>In-N-Out Burger Nutrition Facts</h1>
+            <p class="subtitle">Official Nutritional Information & Calorie Data</p>
+        </header>
+        
+        <div class="contact">
+            <p>For detailed nutritional inquiries: <a href="mailto:innoutcalories@gmail.com">innoutcalories@gmail.com</a></p>
+        </div>
+        
+        <div class="nutrition-info">
+            <div class="nutrition-category">
+                <h2>Burgers</h2>
+                <div class="item">
+                    <div class="item-name">Hamburger</div>
+                    <div class="item-details">
+                        <span class="calories">390 Cal</span>
+                        <div class="serving">(w/ Onion, Spread, Lettuce, Tomato)</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-name">Cheeseburger</div>
+                    <div class="item-details">
+                        <span class="calories">480 Cal</span>
+                        <div class="serving">(w/ Onion, Spread, Lettuce, Tomato)</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-name">Double-Double</div>
+                    <div class="item-details">
+                        <span class="calories">670 Cal</span>
+                        <div class="serving">(Two Meat Patties, Two Cheese Slices)</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nutrition-category">
+                <h2>French Fries</h2>
+                <div class="item">
+                    <div class="item-name">French Fries</div>
+                    <div class="item-details">
+                        <span class="calories">370 Cal</span>
+                        <div class="serving">(Regular Size)</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-name">French Fries - Well Done</div>
+                    <div class="item-details">
+                        <span class="calories">400 Cal</span>
+                        <div class="serving">(Crispier Preparation)</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nutrition-category">
+                <h2>Shakes & Drinks</h2>
+                <div class="item">
+                    <div class="item-name">Chocolate Shake</div>
+                    <div class="item-details">
+                        <span class="calories">580 Cal</span>
+                        <div class="serving">(16 oz)</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-name">Vanilla Shake</div>
+                    <div class="item-details">
+                        <span class="calories">570 Cal</span>
+                        <div class="serving">(16 oz)</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-name">Strawberry Shake</div>
+                    <div class="item-details">
+                        <span class="calories">590 Cal</span>
+                        <div class="serving">(16 oz)</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="allergens">
+                <h3>Allergen Information</h3>
+                <p>Contains: Milk, Wheat, Soy. Cooked in 100% sunflower oil. Burgers contain gluten (bun) and dairy (cheese, spread). Shakes contain dairy. Cross-contamination may occur in cooking area.</p>
+            </div>
+            
+            <p class="disclaimer">
+                *Nutritional information is based on standard menu items. Customizations may alter nutritional values. Data is approximate and based on product formulations at time of publication. For the most current information and detailed allergen data, please contact us directly.
+            </p>
+            
+            <div style="text-align: center;">
+                <a href="https://outcalories.us/" class="anchor-link">View Complete In-N-Out Nutrition Facts</a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2023 In-N-Out Nutrition Information Center | This is a nutritional reference site, not affiliated with In-N-Out Burger</p>
+            <p style="margin-top: 10px; opacity: 0.8;">For official information visit: <a href="https://outcalories.us/" style="color: #ffcc00;">innout nutrition facts</a></p>
+        </footer>
+    </div>
+</body>
+</html>
